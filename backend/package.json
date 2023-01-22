@@ -1,0 +1,21 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cep-promise": "^4.2.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "mongodb": "^4.7.0",
+        "mongoose": "^6.3.8"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
+}
