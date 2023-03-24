@@ -1,0 +1,173 @@
+/* Estilização geral da página */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="file"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="datetime-local"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.textbox {
+    margin-bottom: 10px;
+}
+
+.textbox label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.textbox input,
+.textbox select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.textbox input:focus,
+.textbox select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Estilização específica da página Cadastro de mentor */
+
+#area-mentoria {
+    margin-bottom: 20px;
+}
+
+#nivel-projeto {
+    margin-bottom: 20px;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    outline: none;
+}
