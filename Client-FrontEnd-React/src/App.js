@@ -16,7 +16,7 @@ function App() {
         <Route path="/cadastro-projetos" element={<CadastroProjetos />} />
         <Route path="/cadastro-mentor" element={<CadastroMentor />} />
         <Route path="/cadastro-acompanhamento" element={<CadastroAcompanhamento />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
       </Routes>
     </Router>
   );
