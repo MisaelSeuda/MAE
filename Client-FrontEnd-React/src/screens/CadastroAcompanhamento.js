@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import "./GlobalStyles.css";
+import "../styles/GlobalStyles.css";
 
 function CadastroMentorias() {
   const [programaChecked, setProgramaChecked] = useState(false);

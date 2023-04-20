@@ -1,5 +1,5 @@
 import React from "react";
-import "./GlobalStyles.css";
+import "../styles/GlobalStyles.css";
 
 function CadastroMentor() {
   return (
